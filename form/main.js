@@ -16,13 +16,9 @@ var firebaseConfig = {
 
   function submitForm(e){
       e.preventDefault();
-
-       var name = getInput("name");
        var email = getInput("email");
-       var phone = getInput("phone");
-       var message = getInput("message");
     
-       saveMessage(name, email, phone, message);
+       saveMessage(email);
 
        document.getElementById('form').reset();
   }
@@ -31,12 +27,9 @@ var firebaseConfig = {
        return document.getElementById(id).value;
    }
 
-   function saveMessage(name, email, phone, message){
+   function saveMessage(email){
        var newMessageRef = messageRef.push();
        newMessageRef.set({
-           name: name,
            email: email,
-           phone: phone,
-           message: message
        });
    }
