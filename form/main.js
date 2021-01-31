@@ -1,11 +1,11 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyA9JLWVdm6wKZvok9RUQYzLQRxp6QpoPu8",
-    authDomain: "form-d53e8.firebaseapp.com",
-    databaseURL: "https://form-d53e8-default-rtdb.firebaseio.com",
-    projectId: "form-d53e8",
-    storageBucket: "form-d53e8.appspot.com",
-    messagingSenderId: "422389337191",
-    appId: "1:422389337191:web:11ad926c52e4ba1ae318c2"
+    apiKey: "xxxxxxxxxx",
+    authDomain: "xxxxxxxxxx",
+    databaseURL: "xxxxxxxxxx",
+    projectId: "xxxxxxxx",
+    storageBucket: "xxxxxxxxxx",
+    messagingSenderId: "xxxxxxxxxx",
+    appId: "xxxxxx"
   };
 
   firebase.initializeApp(firebaseConfig);
